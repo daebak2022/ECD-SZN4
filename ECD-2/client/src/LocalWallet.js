@@ -9,33 +9,34 @@ import { hexToBytes, toHex } from "ethereum-cryptography/utils";
  * Keys are store in hexadecimal format.
  */
 
+
 // List of account keys in hexa format without the '0x'
 const ACCOUNT_KEYS = new Map([
   [
     "bob",
     {
       private:
-        "375969494c991fef613343fdb163665cea928b3f8185db9ef8b77e162e96bf12",
+        "2a820f3eede9a8d7e501a7b72fb805427f0b497862250f40c217dda4a8b7808b",
       public:
-        "044b295d147068d4cbae1277098c2d66dde85d92bea4fa7368025be78067bb7a6bc80408c466f74c55b40b132d0b44d8615ae6d3505062e165ce6f82552257665a",
+        "04d0a22c2e5700d8f82e271b12d8e090d7ef57de1fac46b841c6a9bda6dfcaf2c3879282fa11b1cbe9471bc312899e35382cc9cf4f75c52f5170f160df56ea62ec",
     },
   ],
   [
     "alice",
     {
       private:
-        "7646a936705c7b51fa28ca0251cbbbebe5d9030282434c531a76fe2b4f2bf52e",
+        "9ed2e34d08773deaecde30867d010cf6e4912aae77915e4fea5e3b22b00bffcf",
       public:
-        "04bbb34ec1e7ba7bbb6b64f1efb7f55224ea8aa44976b27ef97a348c11902eeb18cd0cbc612c40e2a19375e28edce1dde7a73ecfdf8620f51aadf544e5652e33a0",
+        "04e0d5bf8c136b576597ea2f964d01a476ed91cfac88e19b565bfe963b52b84b3eba2d3a256192f0456b6f80190b60a4cb53b806d64387a1b3b8854fc759c4e3b3",
     },
   ],
   [
     "charles",
     {
       private:
-        "cebf6cd6f033901a212e95cd6f4a23a2a7a8299b0d2429f8e838b5b2d1ee336c",
+        "a790b9079b8d5e265d8de2668b2e884ec3019bcfc78f2242ef1f9e9302767805",
       public:
-        "041a29c5e0e72ab1461d4b15d6385b3ce464c7ec737cce113f378ae767af903a309982b6da43786470adddb4d5946f4f3fbcab9575e4e830984920b4f2faa1d20d",
+        "04b9dafc19674dea962777018931019d33e31c05632dfdc3907243f6424b35961dd249b0fbc0cb06515872022b78a523606edeedf1b5818048cf9f60fede51fe89",
     },
   ],
 ]);
